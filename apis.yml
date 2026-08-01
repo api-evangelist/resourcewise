@@ -1,8 +1,29 @@
 aid: resourcewise
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/resourcewise.png
 name: ResourceWise
-description: ResourceWise is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  ResourceWise is a market intelligence company for sustainable commodities,
+  delivering data, analytics, pricing benchmarks, forecasts, and consulting
+  across the forest products, pulp and paper, biofuels, and chemicals markets.
+  It was formed by unifying established industry brands including Tecnon
+  OrbiChem, Wood Resources International, Fisher International, Forest2Market,
+  Prima Markets, and Chemical Intelligence under the ResourceWise name. Its
+  subscription platforms include ChemEdge360, FisherSolve, Forestat Global,
+  OrbiChem360, Prima CarbonZero, Recycled Fiber 360, SilvaStat360, and
+  WoodMarket Prices. The company is backed by Battery Ventures. No public API
+  or developer portal is currently published; access is delivered through its
+  SaaS platform logins.
 url: https://raw.githubusercontent.com/api-evangelist/resourcewise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Market Intelligence
+- Commodities
+- Data and Analytics
+- Forest Products
+- Pulp and Paper
+- Chemicals
+- Biofuels
+- Pricing Data
+- Sustainability
 apis: []
+common:
+- type: DomainSecurity
+  url: security/resourcewise-domain-security.yml
+- type: Website
+  url: https://www.resourcewise.com
+- type: Blog
+  url: https://www.resourcewise.com/blog
+- type: BlogRSS
+  url: https://www.resourcewise.com/blog/rss.xml
+- type: Support
+  url: https://www.resourcewise.com/contact
+- type: TermsOfService
+  url: https://www.resourcewise.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.resourcewise.com/privacy-policy
+- type: About
+  url: https://www.resourcewise.com/about
+- type: News
+  url: https://www.resourcewise.com/news
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

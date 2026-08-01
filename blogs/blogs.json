@@ -1,0 +1,21 @@
+{
+  "repo": "resourcewise",
+  "feeds": [
+    {
+      "source": "https://www.resourcewise.com",
+      "feed_url": "https://www.resourcewise.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.resourcewise.com/blog",
+      "feed_url": "https://www.resourcewise.com/blog/rss.xml",
+      "title": "",
+      "saved": 3,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 3,
+  "fetched": "2026-07-25T15:00:33Z"
+}
